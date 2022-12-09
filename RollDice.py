@@ -1,0 +1,52 @@
+import random 
+
+
+
+while True:
+    
+    x = random.randint(1,6)
+    response = input("Enter y for roll a dice and n for exit: ")
+    if response == "y":
+       
+      if x == 1:
+       print("[-----]")
+       print("[     ]")
+       print("[  0  ]")
+       print("[     ]")
+       print("[-----]")
+      if x == 2:
+       print("[-----]")
+       print("[     ]")
+       print("[ 0 0 ]")
+       print("[     ]")
+       print("[-----]")
+      if x == 3:
+       print("[-----]")
+       print("[     ]")
+       print("[0 0 0]")
+       print("[     ]")
+       print("[-----]")
+      if x == 4:
+       print("[-----]")
+       print("[0   0]")
+       print("[     ]")
+       print("[0   0]")
+       print("[-----]")
+      if x == 5:
+       print("[-----]")
+       print("[0   0]")
+       print("[  0  ]")
+       print("[0   0]")
+       print("[-----]")
+      if x == 6:
+       print("[-----]")
+       print("[0   0]")
+       print("[0   0]")
+       print("[0   0]")
+       print("[-----]")
+    if response == "n": 
+        break
+     
+       
+       
+
